@@ -3,7 +3,7 @@ const formBtn = document.querySelector('.form__btn');
 const ulWrapper = document.querySelector('.js--todos-wrapper');
 
 
-let todos = JSON.parse(localStorage.getItem('todos')) || [];
+const todos = JSON.parse(localStorage.getItem('todos')) || [];
 
 
 function renderTodos() {
